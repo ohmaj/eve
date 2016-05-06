@@ -1,0 +1,11 @@
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\bin\Debug\eveCostProfitProduction.exe.config
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\bin\Debug\eveCostProfitProduction.exe
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\bin\Debug\eveCostProfitProduction.pdb
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\obj\Debug\eveCostProfitProduction.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\obj\Debug\eveCostProfitProduction.exe
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\obj\Debug\eveCostProfitProduction.pdb
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\bin\Debug\YamlDotNet.dll
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\bin\Debug\YamlDotNet.pdb
+D:\Projects\VisualStudio\eve\eveCostProfitProduction\eveCostProfitProduction\bin\Debug\YamlDotNet.xml

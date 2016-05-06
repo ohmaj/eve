@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="eveCostProfitProduction.Location" Collapsed="true">
+    <Position X="19" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAQAAAAAAQAAAAAgAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.MarketOrders" Collapsed="true">
+    <Position X="12" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAACAAAAQAAABAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MarketOrders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.MyUserAgent" Collapsed="true">
+    <Position X="17.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyUserAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.DataParse&lt;T&gt;" Collapsed="true">
+    <Position X="19" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAIAA=</HashCode>
+      <FileName>DataParse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Galaxy" Collapsed="true">
+    <Position X="13.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAwAAABAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Galaxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Region" Collapsed="true">
+    <Position X="17.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAIEAAAAAAAAAEAAAAAIAiAAAAAgA=</HashCode>
+      <FileName>Region.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Constellation" Collapsed="true">
+    <Position X="17.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Constellation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.StarSystem" Collapsed="true">
+    <Position X="19" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAACQAAAAIAAAAAQAIAAAAAAEAAAQAAAAQEAQAgA=</HashCode>
+      <FileName>StarSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Position" Collapsed="true">
+    <Position X="13.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Station" Collapsed="true">
+    <Position X="10.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgACAAAAAIAAEEIAFAAAAAACAAIAAAAA=</HashCode>
+      <FileName>Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Item" Collapsed="true">
+    <Position X="17.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIEAAAAACCAAAAAAIAIACAgAAAAEACAAAAAAgAACAgA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Order" Collapsed="true">
+    <Position X="19" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEDAAIKAAAAAIAQAAAAAACCAAABAAAAAAAAQAADAgA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Attribute" Collapsed="true">
+    <Position X="13.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>Attribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Effect" Collapsed="true">
+    <Position X="12" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>Effect.cs</FileName>
+      <NewMemberFileName>effect.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.GraphicID" Collapsed="true">
+    <Position X="15.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>GraphicID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Dogma" Collapsed="true">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dogma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Service" Collapsed="true">
+    <Position X="12" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Race" Collapsed="true">
+    <Position X="15.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>Race.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Owner" Collapsed="true">
+    <Position X="10.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Owner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.SystemStats" Collapsed="true">
+    <Position X="12" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>SystemStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Planet" Collapsed="true">
+    <Position X="12" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Planet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Stargate" Collapsed="true">
+    <Position X="17.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Stargate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Sovereignty" Collapsed="true">
+    <Position X="15.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>Sovereignty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Moon" Collapsed="true">
+    <Position X="15.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Moon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.MarketSellOrders" Collapsed="true">
+    <Position X="13.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAACAAAAQAAABAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MarketOrders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.MarketBuyOrders" Collapsed="true">
+    <Position X="10.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAACAAAAQAAABAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MarketOrders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.SourceReferenceData" Collapsed="true">
+    <Position X="13.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>SourceReferenceData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.AverageUnitCostItemInLocation" Collapsed="true">
+    <Position X="15.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AverageUnitCostItemInLocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.AllStarSystems" Collapsed="true">
+    <Position X="12" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAwAAABAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>AllStarSystems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.SelectStarSystem" Collapsed="true">
+    <Position X="10.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>SelectStarSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.AllItems" Collapsed="true">
+    <Position X="10.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAwAAABAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>AllItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.SelectItem" Collapsed="true">
+    <Position X="19" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>selectItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.UserInterface" Collapsed="true">
+    <Position X="13.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>UserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Blueprints" Collapsed="true">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Blueprints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.ItemBlueprint" Collapsed="true">
+    <Position X="4.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ItemBlueprint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Activities">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Activities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Manufacturing">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>Manufacturing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Material">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAA=</HashCode>
+      <FileName>Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Product">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.Skill">
+    <Position X="4.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.AllBlueprints">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AllBlueprints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eveCostProfitProduction.JsonAllBlueprints">
+    <Position X="5.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>JsonAllBlueprints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
