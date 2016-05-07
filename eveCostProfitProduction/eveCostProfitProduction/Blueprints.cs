@@ -1,32 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Net;
-using YamlDotNet.Core.Events;
-using YamlDotNet.Core.Tokens;
-using YamlDotNet.Core;
-using YamlDotNet;
+﻿using System.Collections.Generic;
 using System.IO;
-using YamlDotNet.RepresentationModel;
 using YamlDotNet.Serialization;
-using YamlDotNet.Serialization.NamingConventions;
-using Newtonsoft.Json;
+
 
 namespace eveCostProfitProduction
 {
-    public class Blueprints
+    public class ParseBlueprints
     {
-        public Blueprints()
+        public ParseBlueprints()
         {
 
         }
-        public string CreateBlueprints()
+        public Dictionary<string, ItemBlueprint> blueprintsDictionary()
         {
             
-            var deserializer = new Deserializer();
-            var result = deserializer.Deserialize(new StreamReader(@"blueprints.yaml"));
-            return result.ToString();
+            var deserializer = new Deserializer(null, null ,true);
+            Dictionary<string,ItemBlueprint> result = deserializer.Deserialize<Dictionary<string,ItemBlueprint>>(new StreamReader(@"blueprints.yaml"));
+            return result;
         }
     }
 }

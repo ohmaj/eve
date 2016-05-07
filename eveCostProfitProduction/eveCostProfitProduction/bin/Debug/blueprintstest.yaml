@@ -1,0 +1,106 @@
+
+    activities:
+        copying:
+            time: 4800
+        invention:
+            materials:
+            -   quantity: 2
+                typeID: 20414
+            -   quantity: 2
+                typeID: 20172
+            products:
+            -   probability: 0.3
+                quantity: 1
+                typeID: 11183
+            skills:
+            -   level: 1
+                typeID: 11445
+            -   level: 1
+                typeID: 11455
+            -   level: 1
+                typeID: 21791
+            time: 63900
+        manufacturing:
+            materials:
+            -   quantity: 15556
+                typeID: 34
+            -   quantity: 10222
+                typeID: 35
+            -   quantity: 2778
+                typeID: 36
+            -   quantity: 111
+                typeID: 37
+            -   quantity: 78
+                typeID: 38
+            -   quantity: 34
+                typeID: 39
+            -   quantity: 6
+                typeID: 40
+            products:
+            -   quantity: 1
+                typeID: 586
+            skills:
+            -   level: 1
+                typeID: 3380
+            time: 6000
+        research_material:
+            time: 2100
+        research_time:
+            time: 2100
+    blueprintTypeID: 690
+    maxProductionLimit: 30
+691:
+    activities:
+        copying:
+            time: 4800
+        invention:
+            materials:
+            -   quantity: 2
+                typeID: 20424
+            -   quantity: 2
+                typeID: 20172
+            products:
+            -   probability: 0.3
+                quantity: 1
+                typeID: 11372
+            -   probability: 0.3
+                quantity: 1
+                typeID: 11401
+            skills:
+            -   level: 1
+                typeID: 11445
+            -   level: 1
+                typeID: 11452
+            -   level: 1
+                typeID: 21791
+            time: 63900
+        manufacturing:
+            materials:
+            -   quantity: 22778
+                typeID: 34
+            -   quantity: 6222
+                typeID: 35
+            -   quantity: 2222
+                typeID: 36
+            -   quantity: 356
+                typeID: 37
+            -   quantity: 133
+                typeID: 38
+            -   quantity: 34
+                typeID: 39
+            -   quantity: 2
+                typeID: 40
+            products:
+            -   quantity: 1
+                typeID: 587
+            skills:
+            -   level: 1
+                typeID: 3380
+            time: 6000
+        research_material:
+            time: 2100
+        research_time:
+            time: 2100
+    blueprintTypeID: 691
+    maxProductionLimit: 30
+

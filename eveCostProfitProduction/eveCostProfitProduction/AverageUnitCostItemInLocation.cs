@@ -11,16 +11,16 @@ namespace eveCostProfitProduction
         {
 
         }
-        public Item useritem(string userSelection)
+        public Item useritem(string userItemInput)
         {
             SelectItem userItem = new SelectItem();
-            Item item = userItem.userItem(userSelection);
+            Item item = userItem.userItem(userItemInput);
             return item;
         }
-        public StarSystem userSystem()
+        public StarSystem userSystem(string userStarSystemInput)
         {
             SelectStarSystem userSystem = new SelectStarSystem();
-            StarSystem starSystem = userSystem.userStarSystem();
+            StarSystem starSystem = userSystem.userStarSystem(userStarSystemInput);
             return starSystem;
         }
 

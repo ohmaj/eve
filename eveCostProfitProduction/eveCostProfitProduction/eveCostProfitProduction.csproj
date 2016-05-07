@@ -52,7 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities.cs" />
-    <Compile Include="AllBlueprints.cs" />
     <Compile Include="AllItems.cs" />
     <Compile Include="AllStarSystems.cs" />
     <Compile Include="Attribute.cs" />
@@ -60,14 +59,16 @@
     <Compile Include="AverageUnitCostItemInLocation.cs" />
     <Compile Include="Blueprints.cs" />
     <Compile Include="Constellation.cs" />
+    <Compile Include="Copying.cs" />
     <Compile Include="Dogma.cs" />
     <Compile Include="Effect.cs" />
     <Compile Include="Galaxy.cs" />
     <Compile Include="GraphicID.cs" />
+    <Compile Include="Invention.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="DataParse.cs" />
     <Compile Include="ItemBlueprint.cs" />
-    <Compile Include="JsonAllBlueprints.cs" />
+    <Compile Include="LocalPrices.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Manufacturing.cs" />
     <Compile Include="MarketOrders.cs" />
@@ -77,12 +78,17 @@
     <Compile Include="Owner.cs" />
     <Compile Include="Planet.cs" />
     <Compile Include="Position.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="Products.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Race.cs" />
     <Compile Include="Region.cs" />
-    <Compile Include="selectItem.cs" />
+    <Compile Include="ResearchMaterial.cs" />
+    <Compile Include="ResearchTime.cs" />
+    <Compile Include="SelectBlueprint.cs" />
+    <Compile Include="SelectConstellation.cs" />
+    <Compile Include="SelectItem.cs" />
+    <Compile Include="SelectRegion.cs" />
     <Compile Include="SelectStarSystem.cs" />
     <Compile Include="Skill.cs" />
     <Compile Include="SourceReferenceData.cs" />

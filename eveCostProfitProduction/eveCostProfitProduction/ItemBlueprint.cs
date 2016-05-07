@@ -7,6 +7,8 @@ namespace eveCostProfitProduction
 {
     public class ItemBlueprint
     {
-        public List<Attributes> attributes { get; set; }
+        public Activities activities { get; set; }
+        public string blueprintTypeID { get; set; }
+        public string maxProductionLimit { get; set; }
     }
 }

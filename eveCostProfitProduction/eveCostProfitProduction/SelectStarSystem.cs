@@ -10,18 +10,11 @@ namespace eveCostProfitProduction
         public SelectStarSystem()
         {
         }
-
-        public string getUserStarSystemInput()
-        {
-            Console.WriteLine("Where are you buying and selling: ");
-            string starSystemInput = Console.ReadLine();
-            return starSystemInput;
-        }
-        public StarSystem userStarSystem()
+        public StarSystem userStarSystem(string userStarSystemInput)
         {
             DataParse<AllStarSystems> allSolarSystemsParse = new DataParse<AllStarSystems>("https://crest-tq.eveonline.com/solarsystems/");
             List<SourceReferenceData> allStarSystems = allSolarSystemsParse.data.items;
-            string userSelection = getUserStarSystemInput();
+            string userSelection = userStarSystemInput;
             foreach (SourceReferenceData starSystem in allStarSystems)
             {
                 if (userSelection == starSystem.name)
@@ -31,7 +24,7 @@ namespace eveCostProfitProduction
                 }
             }
             Console.WriteLine("Did Not Find That Star System");
-            return userStarSystem();
+            return userStarSystem(userStarSystemInput);
         }
         public StarSystem getStarSystem(SourceReferenceData starSystem)
         {
