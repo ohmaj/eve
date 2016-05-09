@@ -5,7 +5,7 @@ using System.Text;
 
 namespace eveCostProfitProduction
 {
-    public class AllStarSystems
+    public class AllSystems
     {
         public string totalCount_str { get; set; }
         public List<SourceReferenceData> items { get; set; }

@@ -8,9 +8,9 @@ namespace eveCostProfitProduction
     public class Location
     {
         public string href { get; set; }
-        public Station station { get; set; }
-        public Region region { get; set; }
-        public StarSystem solarSystem { get; set; }
-        public Constellation constellation { get; set; }
+        public SourceReferenceData station { get; set; }
+        public SourceReferenceData region { get; set; }
+        public SourceReferenceData solarSystem { get; set; }
+        public SourceReferenceData constellation { get; set; }
     }
 }

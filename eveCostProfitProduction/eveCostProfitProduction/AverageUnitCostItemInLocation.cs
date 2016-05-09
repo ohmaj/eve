@@ -7,21 +7,19 @@ namespace eveCostProfitProduction
 {
     public class AverageUnitCostItemInLocation
     {
-         public AverageUnitCostItemInLocation()
+        MarketOrders marketOrders;
+        StarSystem system;
+        public AverageUnitCostItemInLocation(StarSystem system,MarketOrders marketOrders)
         {
+            this.marketOrders = marketOrders;
+            this.system = system;
 
         }
-        public Item useritem(string userItemInput)
+        
+        public double getOrderAverage()
         {
-            SelectItem userItem = new SelectItem();
-            Item item = userItem.userItem(userItemInput);
-            return item;
-        }
-        public StarSystem userSystem(string userStarSystemInput)
-        {
-            SelectStarSystem userSystem = new SelectStarSystem();
-            StarSystem starSystem = userSystem.userStarSystem(userStarSystemInput);
-            return starSystem;
+            LowestSellOrder lowest = new LowestSellOrder();
+            return lowest.getLowestPrice(system, marketOrders);
         }
 
     }

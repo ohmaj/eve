@@ -8,8 +8,8 @@ namespace eveCostProfitProduction
     public class Constellation
     {
         public Position position { get; set; }
-        public Region region { get; set; }
-        public List<StarSystem> systems { get; set; }
+        public RegionOfConsellationReference region  { get; set; }
+        public List<StarSystemsReference> systems { get; set; }
         public string name { get; set; }
     }
 }

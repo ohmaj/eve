@@ -11,35 +11,77 @@ namespace eveCostProfitProduction
         
         public void run()
         {
-            string itemName = getUserItemInput();
-            List<Material> materials = getUserBlueprintMaterials(itemName);
+            TempItemList tempItemList = new TempItemList();
+            tempItemList.createTempItemList();
+            Item item = getUserItemInput();
+            StarSystem system = getUserStarSystemInput();
+            double itemPrice = getHighestBuyPrice(system, item.id_str);
+            SelectItemMaterials itemMaterials = new SelectItemMaterials();
+            List<Material> materials = itemMaterials.getUserBlueprintMaterials(item.name);
+            double materialsPrice = getMaterialsPrice(materials,system);
+            Console.WriteLine(item.name+" Sells for: " + itemPrice.ToString());
+            Console.WriteLine("The materials for your product sell for: "+ materialsPrice.ToString());
+            Console.ReadKey();
+        }
+
+        public double getHighestBuyPrice(StarSystem system, string item)
+        {
+            SelectMarketBuyOrders getMarketOrders = new SelectMarketBuyOrders();
+            var getConstellation = new DataParse<Constellation>(system.constellation.href);
+            Constellation constellation = getConstellation.data;
+            var getRegion = new DataParse<Region>(constellation.region.href);
+            Region region = getRegion.data;
+            MarketOrders marketOrders = getMarketOrders.getMarketOrders(region.id_str, item);
+            LowestSellOrder lowestPrice = new LowestSellOrder();
+            double price = lowestPrice.getLowestPrice (system, marketOrders);
+            return price;
+            
+
+        }
+        public double getlowestSellPrice(StarSystem system, string item)
+        {
+            SelectMarketSellOrders getMarketOrders = new SelectMarketSellOrders();
+            var getConstellation = new DataParse<Constellation>(system.constellation.href);
+            Constellation constellation = getConstellation.data;
+            var getRegion = new DataParse<Region>(constellation.region.href);
+            Region region = getRegion.data;
+            MarketOrders marketOrders = getMarketOrders.getMarketOrders(region.id_str, item);
+            LowestSellOrder lowestPrice = new LowestSellOrder();
+            double price = lowestPrice.getLowestPrice(system, marketOrders);
+            return price;
+
+
+        }
+        public double getMaterialsPrice(List<Material>materials,StarSystem system)
+        {
+            List<double> materialsPrice = new List<double>();
             foreach (Material material in materials)
             {
-                Console.WriteLine(material.quantity +": "+material.typeID);
+                double materialPricePerUnit = getlowestSellPrice(system, material.typeID);
+                double materialQuantity = Convert.ToDouble(material.quantity);
+                double materialNeededPrice = materialPricePerUnit*materialQuantity;
+                materialsPrice.Add(materialNeededPrice);
             }
-            Console.ReadKey();
+            double totalMaterials = materialsPrice.Sum();
+            return totalMaterials;
 
         }
-        public List<Material> getUserBlueprintMaterials(string itemNameString)
-        {
-            SelectItem selectItem = new SelectItem();
-            Item itemBlueprint = selectItem.userItem(itemNameString+" Blueprint");
-
-            SelectBlueprint selectBlueprint = new SelectBlueprint();
-            List<Material> blueprintMaterials = selectBlueprint.userBlueprint(itemBlueprint.id_str);
-            return blueprintMaterials;
-        }
-        public string getUserItemInput()
+        public Item getUserItemInput()
         {
             Console.WriteLine("What are you producing: ");
             string userItemInput = Console.ReadLine();
-            return userItemInput;
+            SelectItem selectItem = new SelectItem();
+            Item item = selectItem.userItem(userItemInput);
+            return item;
+
         }
-        public string getUserStarSystemInput()
+        public StarSystem getUserStarSystemInput()
         {
             Console.WriteLine("Where are you buying and selling: ");
             string starSystemInput = Console.ReadLine();
-            return starSystemInput;
+            SelectStarSystem selectSystem = new SelectStarSystem();
+            StarSystem system = selectSystem.userStarSystem(starSystemInput);
+            return system;
         }
     }
 }

@@ -17,11 +17,11 @@ namespace eveCostProfitProduction
         public string range { get; set; }
         public string href { get; set; }
         public string duration_str { get; set; }
-        public Location location { get; set; }
+        public SourceReferenceData location { get; set; }
         public int duration { get; set; }
         public string minVolume_str { get; set; }
         public string volumeEntered_str { get; set; }
-        public Type type { get; set; }
+        public SourceReferenceData type { get; set; }
         public object id { get; set; }
         public string id_str { get; set; }
     }

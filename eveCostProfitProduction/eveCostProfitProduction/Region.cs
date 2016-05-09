@@ -9,7 +9,7 @@ namespace eveCostProfitProduction
     {
         public string description { get; set; }
         public MarketBuyOrders marketBuyOrders { get; set; }
-        public List<Constellation> constellations { get; set; }
+        public ConstellationsReference constellation { get; set; }
         public MarketOrders marketOrders { get; set; }
         public string id_str { get; set; }
         public MarketSellOrders marketSellOrders { get; set; }

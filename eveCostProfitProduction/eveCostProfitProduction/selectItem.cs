@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace eveCostProfitProduction
 {
@@ -14,8 +16,9 @@ namespace eveCostProfitProduction
         
         public Item userItem(string userSelection)
         {
-            DataParse<AllItems> allItemParse = new DataParse<AllItems>("https://crest-tq.eveonline.com/types/");
-            List<SourceReferenceData> allItems = allItemParse.data.items;
+            string allItemsJson = File.ReadAllText(@"allItems.txt");
+            AllStarSystems allItemParse = JsonConvert.DeserializeObject<AllStarSystems>(allItemsJson);
+            List<SourceReferenceData> allItems = allItemParse.items;
             foreach (SourceReferenceData item in allItems)
             {
                 if (userSelection == item.name)
@@ -25,7 +28,7 @@ namespace eveCostProfitProduction
                 }
             }
             Console.WriteLine("Did Not Find that Item");
-            return userItem(userSelection);
+            return null;
         }
         public Item getItem(SourceReferenceData item)
         {

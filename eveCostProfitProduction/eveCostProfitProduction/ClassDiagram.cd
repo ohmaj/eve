@@ -3,14 +3,14 @@
   <Class Name="eveCostProfitProduction.Location" Collapsed="true">
     <Position X="19" Y="7.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAAAAAAAAQAAAAAAQAAAAAgAAAAAAAAAAAQAAAAAA=</HashCode>
+      <HashCode>ACCAAAAAAAEQACAAAAQAAAAAgAAAAAAAAAAAQAAAQAA=</HashCode>
       <FileName>Location.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="eveCostProfitProduction.MarketOrders" Collapsed="true">
     <Position X="12" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAABAAAAACAAAAQAAABAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAABAAAAACAAAAQAAABAAAAAAAAAAAAIAAAEAAA=</HashCode>
       <FileName>MarketOrders.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -45,14 +45,14 @@
   <Class Name="eveCostProfitProduction.Constellation" Collapsed="true">
     <Position X="17.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAEAAAAAAAAA=</HashCode>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAEAAAAAAAAA=</HashCode>
       <FileName>Constellation.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="eveCostProfitProduction.StarSystem" Collapsed="true">
     <Position X="19" Y="10.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAAACQAAAAIAAAAAQAIAAAAAAEAAAQAAAAQEAQAgA=</HashCode>
+      <HashCode>AAEAAACQAAAAIAAAAAQAIAAAAAAEAAAQAAAAQEAQQgA=</HashCode>
       <FileName>StarSystem.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -80,7 +80,7 @@
   <Class Name="eveCostProfitProduction.Order" Collapsed="true">
     <Position X="19" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEEDAAIKAAAAAIAQAAAAAACCAAABAAAAAAAAQAADAgA=</HashCode>
+      <HashCode>AEEDAAIKIAAAAIAQAAAAAACCAAABAAAAAAAAQAADAgA=</HashCode>
       <FileName>Order.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -172,14 +172,14 @@
   <Class Name="eveCostProfitProduction.MarketSellOrders" Collapsed="true">
     <Position X="13.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAABAAAAACAAAAQAAABAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAABAAAAACAAAAQAAABAAAAAAAAAAAAIAAAEAAA=</HashCode>
       <FileName>MarketOrders.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="eveCostProfitProduction.MarketBuyOrders" Collapsed="true">
     <Position X="10.25" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAABAAAAACAAAAQAAABAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAABAAAAACAAAAQAAABAAAAAAAAAAAAIAAAEAAA=</HashCode>
       <FileName>MarketOrders.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -193,7 +193,7 @@
   <Class Name="eveCostProfitProduction.AverageUnitCostItemInLocation" Collapsed="true">
     <Position X="15.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAAAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AverageUnitCostItemInLocation.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -229,7 +229,7 @@
   <Class Name="eveCostProfitProduction.UserInterface" Collapsed="true">
     <Position X="13.75" Y="11.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAgAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAACgAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>UserInterface.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -264,7 +264,7 @@
   <Class Name="eveCostProfitProduction.Products">
     <Position X="1" Y="12.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAIAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAA=</HashCode>
       <FileName>Products.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -301,13 +301,6 @@
     <TypeIdentifier>
       <HashCode>AAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>ResearchTime.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="eveCostProfitProduction.SelectRegion">
-    <Position X="0.5" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SelectRegion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="eveCostProfitProduction.SelectConstellation">

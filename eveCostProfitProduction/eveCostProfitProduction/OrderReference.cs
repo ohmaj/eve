@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eveCostProfitProduction
 {
-    class LocalPrices
+    class OrderReference
     {
     }
 }

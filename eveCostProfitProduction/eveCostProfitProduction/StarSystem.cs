@@ -16,7 +16,7 @@ namespace eveCostProfitProduction
         public double securityStatus { get; set; }
         public Position position { get; set; }
         public Sovereignty sovereignty { get; set; }
-        public Constellation constellation { get; set; }
+        public ConstellationsReference constellation { get; set; }
         public int id { get; set; }
         public string name { get; set; }
     }

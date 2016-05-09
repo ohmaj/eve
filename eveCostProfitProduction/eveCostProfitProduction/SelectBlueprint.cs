@@ -10,21 +10,20 @@ namespace eveCostProfitProduction
         public SelectBlueprint()
         {
         }
-        public List<Material> userBlueprint(string itemBlueprintIdString)
+        public ItemBlueprint userBlueprint(string itemBlueprintIdString)
         {
-            ParseBlueprints parseBlueprints = new ParseBlueprints();
+            Blueprints parseBlueprints = new Blueprints();
             foreach (KeyValuePair<string,ItemBlueprint> blueprint in parseBlueprints.blueprintsDictionary())
             {
                 if (itemBlueprintIdString == blueprint.Key)
                 {
-                    List<Material> userBlueprintMaterials = blueprint.Value.activities.manufacturing.materials;
-                    return userBlueprintMaterials;
+                    ItemBlueprint userBlueprint = blueprint.Value;
+                    return userBlueprint;
                 }
 
             }
-            Console.WriteLine("there was an error location your blueprint");
-            List<Material> error = null;
-            return error;
+            Console.WriteLine("there was an error locating your blueprint");
+            return null;
         }
     }
 }

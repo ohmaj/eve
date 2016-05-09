@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace eveCostProfitProduction
 {
@@ -12,8 +14,9 @@ namespace eveCostProfitProduction
         }
         public StarSystem userStarSystem(string userStarSystemInput)
         {
-            DataParse<AllStarSystems> allSolarSystemsParse = new DataParse<AllStarSystems>("https://crest-tq.eveonline.com/solarsystems/");
-            List<SourceReferenceData> allStarSystems = allSolarSystemsParse.data.items;
+            string allsystemsJson = File.ReadAllText(@"allSystems.txt");
+            AllSystems allSolarSystemsParse = JsonConvert.DeserializeObject<AllSystems>(allsystemsJson);
+            List<SourceReferenceData> allStarSystems = allSolarSystemsParse.items;
             string userSelection = userStarSystemInput;
             foreach (SourceReferenceData starSystem in allStarSystems)
             {
@@ -24,7 +27,7 @@ namespace eveCostProfitProduction
                 }
             }
             Console.WriteLine("Did Not Find That Star System");
-            return userStarSystem(userStarSystemInput);
+            return null;
         }
         public StarSystem getStarSystem(SourceReferenceData starSystem)
         {

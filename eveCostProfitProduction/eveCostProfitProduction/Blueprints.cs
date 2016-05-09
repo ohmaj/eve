@@ -5,9 +5,9 @@ using YamlDotNet.Serialization;
 
 namespace eveCostProfitProduction
 {
-    public class ParseBlueprints
+    public class Blueprints
     {
-        public ParseBlueprints()
+        public Blueprints()
         {
 
         }
